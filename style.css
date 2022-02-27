@@ -115,7 +115,7 @@ body {
 }
 
 .form__input--error-message {
-	margin-bottom: 1rem;
+	margin-top: 1rem;
 	font-size: 0.85rem;
 	color: red;
 }
