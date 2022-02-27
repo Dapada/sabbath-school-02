@@ -23,7 +23,7 @@ body {
 	width: 100%;
 	padding: 0.75rem;
 	box-sizing: border-box;
-	border-radius: 30px;
+	/*border-radius: 30px;*/
 	border: 1px solid #dddddd;
 	outline: none;
 	transition: 0.2s, border-color 0.2s;
@@ -60,9 +60,11 @@ body {
 	margin-bottom: 1rem;
 }
 
+
 .form .form__button {
 	margin-bottom: 1rem;
 }
+
 
 .form__title {
 	margin-bottom: 1rem;
@@ -74,3 +76,46 @@ body {
  	color: #1c8adb;
  	font-weight: bold;
  }
+
+
+ .form hr {
+ 	margin-bottom: 2rem;
+ }
+
+
+ .form .form__button {
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	padding: .75rem;
+	cursor: pointer;
+	background-color: #1c8adb;
+}	
+
+.form .form__button:focus {
+	background-color: #0C4BA6;
+	color: #ffffff;
+}
+
+.form .form__button:active {
+	transform: scale(0.98);
+}
+
+.form__input:hover {
+	border-color: #1c8adb;
+	background-color: #ffffff;
+}
+
+
+.form__input--error {
+	color: red;
+	border-color: red;
+}
+
+.form__input--error-message {
+	margin-bottom: 1rem;
+	font-size: 0.85rem;
+	color: red;
+}
