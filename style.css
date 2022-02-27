@@ -1,6 +1,7 @@
 body {
 	box-sizing: border-box;
 	font-size: 16px;
+	 
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -26,7 +27,13 @@ body {
 	/*border-radius: 30px;*/
 	border: 1px solid #dddddd;
 	outline: none;
+	background: #eeeeee;
 	transition: 0.2s, border-color 0.2s;
+}
+
+
+.form--hidden {
+	display: none;
 }
 
 
@@ -78,11 +85,6 @@ body {
  }
 
 
- .form hr {
- 	margin-bottom: 2rem;
- }
-
-
  .form .form__button {
 	display: block;
 	width: 100%;
@@ -92,6 +94,7 @@ body {
 	padding: .75rem;
 	cursor: pointer;
 	background-color: #1c8adb;
+	margin-bottom: 2rem;
 }	
 
 .form .form__button:hover {
@@ -135,4 +138,3 @@ body {
 .form .form__link:hover {
 	text-decoration: underline;
 }
-
