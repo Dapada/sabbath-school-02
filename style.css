@@ -94,7 +94,7 @@ body {
 	background-color: #1c8adb;
 }	
 
-.form .form__button:focus {
+.form .form__button:hover {
 	background-color: #0C4BA6;
 	color: #ffffff;
 }
@@ -119,3 +119,20 @@ body {
 	font-size: 0.85rem;
 	color: red;
 }
+
+
+.form .form__text { /* Don't have an account */
+	color: #555;
+}
+
+
+.form .form__link {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.form .form__link:hover {
+	text-decoration: underline;
+}
+
