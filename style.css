@@ -1,18 +1,35 @@
-body {
+/*body {
 	box-sizing: border-box;
 	font-size: 16px;
 	background-color: #0e1152;
 	font-family: 'Oxygen', sans-serif;
+}*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
 }
 
 
-.container { /* form */
-	width: 330px;
-	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3); 
-	/*background: rgba(0, 0, 0, 0.001);*/
+body {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0e1152;
+}
+
+
+.container {
+	max-width: 850px;
+	width: 100%;
 	background: #fff;
-	padding: 20px;
-	margin: 8% auto 0;
-	text-align: center; 
-
 }
+
+
+
+
+
