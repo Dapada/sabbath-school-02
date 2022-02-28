@@ -18,60 +18,46 @@
 
 
 	<div class="container">
-		<form class="form form--hidden" id="login">
-			<h1 class="form__title">Login</h1>
-			<div class="form__message form__message--error" ></div>
-			<div class="form__input-group">
-				<input type="text" class="form__input" autofocus placeholder="Username or Email" name="username or Email">
-				<div class="form__input--error-message"></div>
+		<form action="#">
+			<div class="login-form">
+				<div class="title">Login</div>
+				<div class="input-boxes">
+					<div class="input-box">
+						<input type="text" placeholder="Username or email" name="Username or email" required>		
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="Enter your password" name="Enter your password" required>
+					</div>
+					<div class="text"><a href="#">Forgot password</a></div>
+					<div class="button input-box">
+						<input type="submit" value="Submit" name="Submit">
+					</div>	
+					<div class="text">Don't have an account? <label for=""> Create account</label></div>						
+				</div>
 			</div>
-			<div class="form__input-group">
-				<input type="password" class="form__input" autofocus placeholder="Password" name="Password">
-				<div class="form__input-error-message"></div>
-			</div>
-			<button class="form__button" type="submit">Continue</button>
-
-			<hr class="dropdown-divider">
-			<span><p>or</p></span>
-
-			<p class="form__text">
-				<a href="#" class="form__link">Forgot your password</a>	
-			</p>
-			<p class="form__text">
-				Don't have an account? 
-				<a class="form__link" href="./" id="linkCreateAccount">Create account </a>	
-			</p>		
-		</form>
-		<form class="form" id="createAccount">
-			<h1 class="form__title">Create Account</h1>
-			<div class="form__message form__message--error" ></div>
-			<div class="form__input-group">
-				<input type="text" class="form__input" autofocus placeholder="Username" name="username">
-				<div class="form__input--error-message"></div>
-			</div>
-			<div class="form__input-group">
-				<input type="text" class="form__input" autofocus placeholder="Email Address" name="Email Address">
-				<div class="form__input--error-message"></div>
-			</div>
-			<div class="form__input-group">
-				<input type="password" class="form__input" autofocus placeholder="Password" name="Password">
-				<div class="form__input-error-message"></div>
-			</div>
-			<div class="form__input-group">
-				<input type="password" class="form__input" autofocus placeholder=" Confirm Password" name="Confirm Password">
-				<div class="form__input-error-message"></div>
-			</div>
-			<button class="form__button" type="submit">Continue</button>
-
-			<hr class="dropdown-divider">
-			<span><p>or</p></span>
-
-			<p class="form__text">
-				Already have an account? 
-				<a class="form__link" href="./" id="linkLogin">Sign in </a>	
-			</p>		
+			<div class="signup-form">
+				<div class="title">Sign up</div>
+				<div class="input-boxes">
+					<div class="input-box">
+						<input type="text" placeholder="Enter your full mame" name="Name" required>		
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="Email address" name="Email address" required>		
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="Create password" name="Create password" required>
+					</div>
+					
+					<div class="button input-box">
+						<input type="submit" value="Submit" name="Submit">
+					</div>
+					<div class="text">Already have an account? <label for=""> Sign in</label></div>							
+				</div>
+			</div>		
 		</form>
 	</div>
+
+
 
 
 
