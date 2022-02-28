@@ -31,6 +31,7 @@ body {
 	background: #fff;
 	padding: 40px 30px;
 	box-shadow: 0 4px 9px rgb(0, 0, 0, 0.3);
+	perspective: 2700px;
 	/*border-radius: 6px;*/
 }
 
@@ -43,8 +44,25 @@ body {
 	width: 50%;
 	background: #0e1152;
 	z-index: 98;
+	transition: all 1s ease;
+	transform-origin: left;
+	transform-style: preserve-3d;
 	/*border-radius: 6px;*/
-	/*background-color: #0e1152;*/
+}
+
+
+.container .cover::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #1c8adb;
+	opacity: 0.5;
+}
+
+
+.container #flip:checked ~ .cover {
+	transform: rotateY(-180deg);
 }
 
 
@@ -82,6 +100,12 @@ form .form-content .input-boxes {
 }
 
 
+
+
+
+
+
+
 form .form-content .input-box {
 	height: 50px;
 	width: 100%;
@@ -100,6 +124,7 @@ form .form-content .input-box {
 .form-content .input-box input:focus 
 .form-content .input-box input:valid{
 	border-color: #1c8adb;
+	background: #eeeeee;
 }
 
 
