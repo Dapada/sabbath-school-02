@@ -31,18 +31,19 @@ body {
 	background: #fff;
 	padding: 40px 30px;
 	box-shadow: 0 4px 9px rgb(0, 0, 0, 0.3);
-	border-radius: 20px;
+	/*border-radius: 6px;*/
 }
 
 
 .container .cover {
 	position: absolute;
 	top: 0;
-	left: 50;
+	left: 50%;
 	height: 100%;
 	width: 50%;
 	background: #0e1152;
 	z-index: 98;
+	/*border-radius: 6px;*/
 	/*background-color: #0e1152;*/
 }
 
