@@ -129,9 +129,20 @@ form .form-content .input-box {
 	box-sizing: border-box;
 	border: 1px solid #dddddd;
 	outline: none;
-	background: #eeeeee;
+	background: #fff;
 	transition: 0.2s, border-color 0.2s;
 	border-radius: 8px;
+}
+
+
+.form-content .input-boxes button.input-box input   {
+	background: #1c8adb;
+
+}
+
+form .form-content .input-box .button .input {
+	color: #fff;
+	background: #1c8adb;
 }
 
 
@@ -157,25 +168,12 @@ form .form-content .text a:hover {
 }
 
 
-form .form-content .button {
-	color: #fff;
-	margin-top: 40px;
-}
 
 
 
-form .form-content .button button {
-	color: #fff;
-	background: #1c8adb;
-	border-radius: 6px;
-	padding: 0;
-	cursor: pointer;
-	transition: all 0.4s ease;
-}
 
-form .form-content .button input:hover {
-	background-color: #0C4BA6;
-}
+
+
 
 
 
